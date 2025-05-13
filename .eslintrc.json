@@ -1,0 +1,14 @@
+{
+    "extends": [
+        "@rocketseat/eslint-config/node"
+    ]
+    ,
+    "prettier/prettier": [
+    "error",
+    {
+      "singleQuote": true,
+      "parser": "flow"
+    }
+  ]
+
+}
